@@ -33,7 +33,7 @@
 // Armadillo Headers
 //
 // Project Specific Headers
-#include "spams_eigen_glue.h"
+#include "fista_flat.h"
 
 void TestFistaFlat( uint num_rows, uint num_cols ) {
 

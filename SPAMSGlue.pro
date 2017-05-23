@@ -47,6 +47,7 @@ LIBS += -lstdc++ \
 LIBS += -larmadillo
 
 HEADERS += spams_eigen_glue.h \
-    test_fista.h
+    test_fista.h \
+    fista_flat.h
 
 SOURCES += main.cpp
