@@ -111,7 +111,7 @@ inline Matrix<T>* Eigen2SpamsMat ( const Eigen::Matrix< T, n, m >& eigen_mat ) {
 
     auto mat_data = eigen_mat.data();
 
-    std::copy( mat_data, mat_data + eigen_mat_size, non_const_mat_data);
+    std::copy( mat_data, mat_data + eigen_mat_size, non_const_mat_data );
 
     auto spams_mat = new Matrix<T> ( non_const_mat_data, m, n );
 

@@ -27,6 +27,9 @@ Any 'precompilied' wrapper packages will not contain the C++ source code.
 
 * [SPAMS](http://spams-devel.gforge.inria.fr/downloads.html)
 
+In order to use the '.pro' file bundled with the package the SPAMS-Eigen Glue
+package should be in the same directory as the 
+
 ## History of this package
 
 This package was developed during the construction of FOS,
